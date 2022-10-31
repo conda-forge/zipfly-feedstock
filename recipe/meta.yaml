@@ -1,5 +1,5 @@
 {% set name = "zipfly" %}
-{% set version = "6.0.4" %}
+{% set version = "6.0.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/zipfly-{{ version }}.tar.gz
-  sha256: db7b1769bbfbc36faa944bcde3e6b8edd270212aa3b9cd3dc89106481b20fe1e
+  sha256: 93c56943dca4bf8a1d7de48a15ca9fa8310ade638f2e2493695853a48448efc0
 
 build:
   number: 0
